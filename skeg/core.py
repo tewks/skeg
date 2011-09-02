@@ -83,7 +83,7 @@ class List(Wrapper):
             return result.__getitem__(s)
 	
 
-class Hash(Wrapper):
+class Dict(Wrapper):
     def get(self, key, default=None):
         return self.redis.hget(self.name, key) or default
 
