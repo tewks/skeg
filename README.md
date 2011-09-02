@@ -7,9 +7,9 @@
     list[0] # 'hello, world'
     
 
-    dict = Dict('test-dict')
-    dict['hello'] = 'world'
-    dict['hello']    # 'world'   
+    d = Dict('test-d')
+    d['hello'] = 'world'
+    d['hello']    # 'world'   
 
     class Blog(Composite):
         properties = {'meta' : Hash, 'posts' : List}
