@@ -2,9 +2,9 @@
 
 # Examples
 
-    list = List('test-list')
-    list.append('hello, world')
-    list[0] # 'hello, world'
+    l = List('test-l')
+    l.append('hello, world')
+    l[0] # 'hello, world'
     
 
     d = Dict('test-d')
